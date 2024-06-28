@@ -16,7 +16,7 @@ pipeline {
             }
         }
         
-        stage('Supreeeth-Test') {
+        stage('Supreeeth-JAVA-Test') {
             steps {
                 sh 'mvn test'
             }
